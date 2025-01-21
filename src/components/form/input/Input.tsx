@@ -1,5 +1,5 @@
 import { IInputProps } from "@/interfaces/IInputProps";
-import styles from "./Input.module.css"
+import styles from "./Input.module.scss"
 
 
 export default function Input({ placeholder } : IInputProps) { 

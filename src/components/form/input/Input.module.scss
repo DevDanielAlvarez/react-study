@@ -1,0 +1,19 @@
+//color
+$text-color: rgb(0, 0, 0);
+
+//border-style
+$border-width : 2px;
+$type-border : solid;
+$border-radius : 4px;
+
+//mixins
+@mixin border( $color, $width : 2px, $type : solid){
+    border-color: $color;
+    border-width : $width;
+    border-type : $type
+}
+.input{
+    color: $text-color;
+    @include border(rgb(133,244,55));
+    border-radius: $border-radius;
+}
